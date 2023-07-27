@@ -1,0 +1,159 @@
+.bigSmallContainar {
+    justify-content: center;
+}
+
+.smallImgContainar,
+.bigImgContainar {
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.smallImgContainar {
+    position: relative;
+    bottom: 10px;
+}
+
+a:hover {
+    border: none;
+}
+
+.detailImg {
+    margin: 10px 0px;
+}
+
+.smallImg {
+    margin: 20px;
+}
+
+.small {
+    position: relative;
+    right: 15px;
+}
+
+.su {
+    font-weight: lighter;
+}
+
+.itemsTextC {
+    justify-content: center;
+}
+
+.itemsText {
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+.Button {
+    justify-content: space-between;
+    align-items: center;
+    width: 207px;
+    height: 60px;
+    border: 1px solid;
+    padding: 5px;
+}
+
+.number {
+    font-size: 30px;
+}
+
+.plack {
+    border: none;
+    background: none;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.plack:hover {
+    cursor: pointer;
+}
+
+.plack:active {
+    background: rgba(198, 196, 196, 0.709);
+    border-radius: 50px;
+    color: white;
+}
+
+.kato {
+    font-size: 30px;
+    width: 497px;
+    height: 70px;
+    border: 1px solid;
+}
+
+.kato:active {
+    background: rgba(218, 214, 214, 0.82);
+}
+
+.kato:hover {
+    cursor: pointer;
+}
+
+.like {
+    background: none;
+}
+
+.centerAll {
+    margin: 25px;
+    margin-left: 40px;
+}
+
+.itemPtag {
+    font-size: 30px;
+}
+
+.imageTwo {
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.marginButton {
+    margin: 100px 0px;
+}
+
+.BottomContainar {
+    width: 100%;
+    justify-content: space-around;
+}
+
+.newWear {
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.text {
+    font-size: 45px;
+    font-weight: lighter;
+}
+
+.detailBottomContainar {
+    width: 280px;
+    margin: 0px 10px;
+}
+
+.itemCheckButton {
+    width: 142px;
+    height: 43px;
+    border: none;
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 25px;
+    left: 70px;
+}
+
+.itemCheckButton:hover {
+    width: 144px;
+    height: 45px;
+    background: #2d2d2dea;
+    cursor: pointer;
+}
+
+.itemCheckButton:active {
+    background-color: gray;
+    color: black;
+}

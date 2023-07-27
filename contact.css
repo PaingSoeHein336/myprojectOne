@@ -1,0 +1,68 @@
+body,
+.input,
+.textarea,
+select {
+    font-family: 'Comfortaa', cursive;
+}
+
+.TogImg {
+    width: 80%;
+    border-radius: 20px;
+}
+
+.TogImgContainar {
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    width: 800px;
+    height: 30px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.textarea {
+    height: 150px;
+    font-size: medium;
+}
+
+select {
+    width: 820px;
+    height: 55px;
+    padding: 10px;
+}
+
+.contact {
+    height: 800px;
+    padding: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContactChild {
+    margin-bottom: 20px;
+}
+
+.text {
+    width: 200px;
+}
+
+button {
+    width: 300px;
+    height: 60px;
+    margin: 10px;
+}
+
+.buttonFont {
+    font-size: 30px;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.buttonFont:active {
+    background: gray;
+}

@@ -1,0 +1,361 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Comfortaa", cursive;
+}
+
+.All {
+    display: flex;
+}
+
+.headerImg {
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    position: absolute;
+}
+
+.menuContainar {
+    width: 100%;
+}
+
+.menu {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    width: 60px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+}
+
+li {
+    height: 20px;
+    border-right: 1px solid white;
+}
+
+li:first-child {
+    border-left: 1px solid white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+}
+
+.nextBotton:hover {
+    border: none;
+}
+
+a:first-child {
+    margin-left: 15px;
+}
+
+a:hover {
+    color: rgb(85, 82, 82);
+    border-bottom-style: solid;
+}
+
+.hOne {
+    color: #FFD476;
+    font-size: 50px;
+}
+
+.headerPtag {
+    color: #FFF0D1;
+    font-size: 25px;
+}
+
+.headerText {
+    justify-content: space-around;
+    ;
+}
+
+.Next {
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    border: none;
+    font-size: 17px;
+}
+
+.Next:hover {
+    background: white;
+    cursor: pointer;
+}
+
+.Next:active {
+    background: gray;
+    color: white;
+}
+
+.hTwo {
+    font-size: 34px;
+}
+
+.FASHION {
+    height: 295px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #FFF0D1;
+}
+
+.logo {
+    width: 160px;
+    height: 120px;
+}
+
+.factionPtag {
+    font-size: 18px;
+}
+
+.bg1 {
+    width: 50%;
+}
+
+.centerWedding {
+    width: 50%;
+    height: 545px;
+}
+
+.Wedding {
+    width: 50%;
+}
+
+.sweater {
+    width: 50%;
+    height: 245px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textSweater {
+    margin-left: 30px;
+}
+
+.WEDDINGCONTAINAR {
+    height: 490px;
+}
+
+.accessory {
+    height: 285px;
+}
+
+.check {
+    width: 142px;
+    height: 43px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+
+.check:hover {
+    width: 144px;
+    height: 45px;
+    background: #2d2d2dea;
+    cursor: pointer;
+}
+
+.check:active {
+    background-color: gray;
+    color: black;
+}
+
+.checkOne {
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+.ws {
+    font-size: 15px;
+}
+
+.CenderImg {
+    justify-content: space-around;
+    background: #FFF0D1;
+    padding: 60px;
+}
+
+.textImage {
+    margin-top: 50px;
+    justify-content: space-between;
+    width: 28%;
+}
+
+.Luxury {
+    font-size: 18px;
+    opacity: 0.6;
+}
+
+.our {
+    font-size: 32px;
+}
+
+.ImgCenterCon {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+    margin-right: 60px;
+}
+
+.ImgCenter {
+    width: 283px;
+    height: 364px;
+}
+
+.seeMore {
+    width: 140px;
+    height: 50px;
+}
+
+.seeMore:hover {
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid;
+    width: 143px;
+    height: 53px;
+}
+
+.seeMore:active {
+    background: gray;
+    color: white;
+}
+
+.capcher1 {
+    width: 500px;
+    height: 500px;
+}
+
+.seeMore:hover {
+    cursor: pointer;
+}
+
+.NEW {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
+    background: #FFF0D1;
+    padding: 20px;
+}
+
+.shop {
+    margin-left: 60px;
+}
+
+span {
+    margin-top: 27px;
+    margin-right: 60px;
+}
+
+.ArrowContainar {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.line {
+    width: 93%;
+    height: 1px;
+    background-color: gray;
+    margin-top: 10px;
+}
+
+.LC {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow {
+    width: 300px;
+    justify-content: space-between;
+}
+
+.arrowPtag {
+    margin-top: 33px;
+    margin-left: 60px;
+}
+
+.endLine {
+    margin-bottom: 100px;
+}
+
+.AS {
+    margin-top: 15px;
+    width: 150px;
+}
+
+.AllImg {
+    width: 34.5%;
+}
+
+.FIn {
+    width: 50px;
+    border-radius: 10px;
+}
+
+.End {
+    width: 100%;
+    height: 230px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Containar {
+    flex-direction: column;
+    align-items: center;
+    background: #FFD476;
+    padding-bottom: 20px;
+}
+
+.TextColor {
+    color: gray;
+}
+
+.backgroundcolor {
+    display: flex;
+    flex-direction: column;
+    background: #FFF0D1;
+}
+
+.swiper {
+    width: 50%;
+    height: 15%;
+    position: relative;
+    left: 9.5%;
+}
+
+.swiperTow {
+    margin-top: 10px;
+    width: 43%;
+    height: 270px;
+    position: relative;
+    left: 8%;
+}
+
+.swiperThree {
+    width: 50%;
+    height: 15%;
+    position: relative;
+    top: 10px;
+    left: 8%;
+}
+
+.swiper-slide img {
+    display: block;
+    border-radius: 10px;
+}

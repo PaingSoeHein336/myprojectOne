@@ -1,0 +1,180 @@
+.banner {
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 240px;
+}
+
+.bannerChild {
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bannerImgContainar {
+    margin: 0px;
+}
+
+.shopNow {
+    width: 180px;
+    height: 50px;
+    position: relative;
+    right: 25px;
+}
+
+.bannerPtag {
+    width: 740px;
+}
+
+.bannerImg {
+    width: 1100px;
+}
+
+span {
+    display: block;
+    margin: 7px;
+    font-size: 25px;
+}
+
+h1 {
+    width: 740px;
+    font-size: 50px;
+}
+
+.bannerContainar {
+    margin-bottom: 70px;
+}
+
+.ngangContainar {
+    justify-content: space-between;
+}
+
+.ngangOne {
+    width: 50%;
+    background: black;
+}
+
+.ngangPtag {
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftRight {
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+
+.left {
+    width: 36%;
+    position: relative;
+    left: 120px;
+}
+
+.right {
+    width: 45%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.rightImg {
+    width: 80%;
+}
+
+.positionImag {
+    position: relative;
+}
+
+.leftImg {
+    width: 100%;
+}
+
+.rightButton {
+    background: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+    position: relative;
+    bottom: 25px;
+}
+
+.leftButton {
+    background: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+    position: relative;
+    bottom: 25px;
+    left: 200px;
+}
+
+.bottomLeftContainar,
+.bottomRightContainar {
+    width: 36%;
+}
+
+.bottomRightContainar {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(248, 233, 158, 0.782);
+}
+
+.bottomImgContainar {
+    justify-content: space-around;
+    position: relative;
+    right: 40px;
+    margin-bottom: 100px;
+}
+
+.bottomLeftContainar {
+    width: 41%;
+    position: relative;
+    left: 65px;
+}
+
+.bottomRight {
+    width: 60%;
+    left: 20px;
+}
+
+.bottomLeft {
+    width: 100%;
+}
+
+.borderRadius {
+    border-radius: 10px;
+}
+
+.RoundC {
+    align-items: center;
+    justify-content: center;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.next {
+    background-color: #04AA6D;
+    color: white;
+    margin-left: 10px;
+}
+
+.round {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 50%;
+    font-size: 20px;
+    position: relative;
+    top: 80px;
+}
+
+.round:active {
+    background: rgba(209, 207, 207, 0.816);
+}
